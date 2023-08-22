@@ -2,15 +2,15 @@ import {nav} from "../data.js"
 
 export default function MenuOption(){
     const info = nav.map(item => 
-        <div key={item.id} className="hidden">
-            <div className="bg-red-400 ">
-                <p>{item.name}</p>
-                <img src={item.image} alt={item.name} />
+        <div key={item.id} className="">
+            <div className="m-2 py-1">
+                <p>{item.name.toUpperCase()}</p>
+                <img src={item.image} alt={item.name}  className="w-4 h-4"/>
             </div>
         </div>
         );
     return(
-        <div>
+        <div className="bg-slate-700 absolute top-2">
             {info}
         </div>
     )

@@ -1,4 +1,4 @@
-import pic from "../img/pexels-photo-2280545.jpeg";
+import pic from "../asserts/pexels-photo-2280545.jpeg";
 export default function Card(){
     return (
         <div className="text-black flex flex-col  py-3 px-4">

@@ -1,31 +1,37 @@
+import recipe from "./asserts/recipe.svg"
+import meat from "./asserts/meat (2).png"
+import cake from "./asserts/cake.svg"
+import snack from "./asserts/snack.png"
+import softdrink from "./asserts/softdrinks.png"
+import health from "./asserts/healthy-food.png"
 export const nav =[
     {
         id:1,
-        image:"./img/recipe.svg",
+        image:recipe,
         name:"Recipe"
     },
     {
         id:2,
-        image:"./img/meat (2).png",
+        image:meat,
         name:"meat"
     },
     {
         id:3,
-        image:"./img/cake.svg",
+        image:cake,
         name:"cakes"
     },
     {
         id:4,
-        image:"./img/snack.png",
+        image: snack,
         name:"snacks"
     },
     {
         id:5,
-        image:"./img/softdrinks.png",
+        image: softdrink,
         name:"drinks"
     }, {
         id:6,
-        image:"./img/healthy-food.png",
+        image:health,
         name:"fru & veg"
     }
 

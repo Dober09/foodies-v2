@@ -1,4 +1,4 @@
-import banner from "../img/pexels-photo-704569.jpeg";
+import banner from "../asserts/pexels-photo-704569.jpeg";
 import Menubtn from "./Menubtn";
 import MenuOption from "./MenuOption";
 export default function Header(){
@@ -12,8 +12,8 @@ export default function Header(){
             <nav className="absolute top-3  right-4 cursor-pointer">
                 <Menubtn/>
             </nav>
-            </div>
             <MenuOption/>
+            </div>
         </header>
     )
 }

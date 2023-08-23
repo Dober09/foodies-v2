@@ -1,13 +1,12 @@
 
-import Box from "./Components/Box";
-import Header from "./Components/Header";
+// import MenuPage from "./pages/MenuPage";
+// import Menubtn from "./Components/Menubtn";
+import MenuPage from "./pages/MenuPage";
+// import Recipe from "./pages/Recipe";
 
 function App() {
   return (
-    <div className="flex flex-col bg-red-300">
-    <Header/>
-    <Box/>
-    </div>
+   <MenuPage/>
   );
 }
 

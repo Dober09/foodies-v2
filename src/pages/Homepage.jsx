@@ -1,7 +1,7 @@
 import Banner from "../components/Banner";
 import Navigation from "../components/Navigation";
 
-export default function Home(){
+export default function Homepage(){
     return (
         <div className="mx-10">
             <div className="">

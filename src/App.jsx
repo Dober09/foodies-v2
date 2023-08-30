@@ -1,9 +1,10 @@
-import Home from "./pages/Home"
+import Menupage from "./pages/Menupage"
+
 
 function App() {
    return (
     <>
-    <Home/>
+    <Menupage/>
     </>
   )
 }

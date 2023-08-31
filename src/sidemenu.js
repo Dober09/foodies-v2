@@ -33,6 +33,6 @@ export const sidemenu = [
   {
     id: 6,
     image: health,
-    name: "fru & veg",
+    name: "fru&veg",
   },
 ];

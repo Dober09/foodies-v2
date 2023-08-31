@@ -1,24 +1,25 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./src/components/*.jsx",
-    "./src/pages/*.jsx"
-  ],
+  content: ["./src/components/*.jsx", "./src/pages/*.jsx", "./src/imdex.html"],
   theme: {
-    fontFamily:{
-      ubuntu:['Ubuntu']
+    colors: {
+      lightpink: "#FFEDDE",
+      somepink: "#FFF5EC",
+      darkpink: "#FE043C",
     },
-    screens:{
+    fontFamily: {
+      ubuntu: ["Ubuntu"],
+    },
+    screens: {
       // 'sm':'30px'
-      'ms':"450px",
+      ms: "450px",
       // "mm":"370px",
-      "ml":"400px",
-      'mt':"768px",
-      "lp":"1020px",
-
+      ml: "400px",
+      mt: "768px",
+      lp: "1020px",
     },
     extend: {},
   },
   plugins: [],
-}
+};
 

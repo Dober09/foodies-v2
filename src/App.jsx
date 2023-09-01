@@ -7,12 +7,14 @@ import { ReactDOM } from "react"
 import { BrowserRouter,Routes,Route } from "react-router-dom"
 import Menupage from "./pages/Menupage"
 import Homepage from "./pages/Homepage"
+import Signup from "./pages/Signup"
 
 
 function App() {
    return (
     <>
-    <BrowserRouter>
+    <Signup/>
+    {/* <BrowserRouter>
     <Routes>
       <Route path="/" element={<Menupage/>}/>
       <Route path="cakes" element={<Cakepage/>}/>
@@ -21,7 +23,7 @@ function App() {
       <Route path="snacks" element={<Snackpage/>}/>
       <Route path="fru&veg" element={<Fruvegpage/>}/>
     </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
     </>
   )
 }

@@ -11,7 +11,7 @@ export default function SideNavigation(){
         </div>
     )
     return (
-        <div className="bg-[#FE043C] sh mt-14 w-40 rounded-r-lg shadow-2xl shadow-zinc-100 mt:flex mt:flex-col  hidden h-2/3 ">
+        <div className="bg-darkpink sh mt-14 w-40 rounded-r-lg shadow-2xl shadow-zinc-100 mt:flex mt:flex-col  hidden h-2/3 ">
             {menu}
         </div>
     )

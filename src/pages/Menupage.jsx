@@ -4,7 +4,7 @@ import banner from  "../assets/images/pexels-photo-704569.jpeg"
 import SideNavigation from "../components/SideNavigation"
 export default function Menupage(){
     return (
-        <main className="bg-[#FFEDDE]">
+        <main className="bg-somepink">
             <Header url={banner} title="foodies"/>
             <div className="flex  ">
             <SideNavigation/>
